@@ -40,9 +40,18 @@ if ((edadPersona >=6) && ( edadPersona <= 11))
    /*4*/
 
 
-if ((diaDelaSemana = ('Lunes')) || ((diaDelaSemana = ('Martes')) || ((diaDelaSemana = ('Miercoles')) || ((diaDelaSemana = ('Jueves')) || ((diaDelaSemana = ('Viernes')) 
+if (((diaDelaSemana =4 ('Lunes')) || ((diaDelaSemana == ('Martes')) || ((diaDelaSemana == ('Miercoles')) || ((diaDelaSemana == ('Jueves')) || ((diaDelaSemana == ('Viernes')))
 {
 alert ('Es dia laboral')
 } else{
+    alert 'Es fin de semana'
+}
+
+/*5*/
+if (contraseña == ('secreto))
+                   {
+    alert ('Acceso concedido')
     
+                   }else{
+    alert ('acceso denegado')
 }
