@@ -44,14 +44,57 @@ if (((diaDelaSemana =4 ('Lunes')) || ((diaDelaSemana == ('Martes')) || ((diaDela
 {
 alert ('Es dia laboral')
 } else{
-    alert 'Es fin de semana'
+    alert ('Es fin de semana')
 }
 
+
 /*5*/
-if (contraseña == ('secreto))
+let contraseña = prompt ('Ingresar contraseña')
+
+if (contraseña == 'secreto')
                    {
     alert ('Acceso concedido')
     
                    }else{
     alert ('acceso denegado')
 }
+
+/*6*/
+
+function multiplo (numero)
+{ if (numero / 5 == 0)
+    {
+        return 'No es multiplo'
+    }else{
+        return numero
+    }
+}
+
+/*7*/
+
+function calculoDescuento (edad, precio)
+{ if (edad > 65)
+{return (precio * 90) / 100
+
+}else{
+    return numero
+}
+}
+
+/*10*/
+
+function añoBisiesto (año)
+{
+    if ((año / 400 == 0) || (año /4 == 0) && (año / 100 > 0))
+    
+{ 
+    return 'Es año bisiesto'
+}else{
+    return 'No es año bisisesto'
+}
+
+
+}
+
+
+
